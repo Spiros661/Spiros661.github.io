@@ -89,14 +89,10 @@ h2 .bar { display: block; width: 48px; height: 3px; margin: 20px auto 0; border-
 .pill.ghost { background: rgba(255,255,255,.03); color: var(--paper); border-color: rgba(255,255,255,.16); }
 
 /* ---------- education ---------- */
-.edu { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: center; padding: 30px 32px; background: var(--ink-2); border: 1px solid var(--line); border-radius: 16px; }
+.edu { padding: 30px 32px; background: var(--ink-2); border: 1px solid var(--line); border-radius: 16px; }
 .edu .school { font-size: 26px; font-weight: 800; line-height: 1.15; }
 .edu .degree { margin-top: 6px; font-size: 18px; color: var(--paper); }
 .edu .meta { margin-top: 10px; font: 500 14px/1.5 var(--mono); color: var(--dim); }
-.gpa { text-align: center; min-width: 150px; padding: 18px 22px; border-radius: 12px; background: rgba(79, 140, 255, .08); border: 1px solid rgba(79, 140, 255, .25); }
-.gpa .lbl { font: 700 11px/1 var(--mono); letter-spacing: .2em; color: var(--dim); }
-.gpa .val { margin-top: 8px; font-size: 34px; font-weight: 800; line-height: 1; color: var(--blue); }
-.gpa .of { font-size: 16px; color: var(--dim); font-weight: 600; }
 
 /* ---------- projects ---------- */
 .projects { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
@@ -189,7 +185,6 @@ footer { text-align: center; padding: 48px 20px 64px; color: var(--dim); font-si
   .lead { font-size: 19px; }
   .profiles, .projects { grid-template-columns: 1fr; }
   .edu { grid-template-columns: 1fr; padding: 24px; }
-  .gpa { justify-self: start; }
   .rbar .pill span { display: none; }
   dialog.resume { width: 100vw; height: 100dvh; border-radius: 0; }
   .tools { grid-template-columns: 1fr 1fr; }
